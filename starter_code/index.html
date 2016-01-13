@@ -3,13 +3,13 @@
 
   <head>
       <title>
-        <!-- Enter a title for your game here -->
+        Rock Paper Scissors War
       </title>
-      <!-- Link CSS here -->
+      <link rel="stylesheet" type="text/css" href="style.css">
 
-      <!-- Link JQuery here -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-      <!-- Link script.js here -->
+    <script src="script.js"></script>
   </head>
 
   <body>
@@ -17,6 +17,7 @@
     <div class="container">
       <div id="rock" class="token">ROCK</div>
       <div id="paper" class="token">PAPER</div>
+      <div id="scissors" class="token">SCISSORS</div>
       <!-- Create Scissors option here -->
     </div>
 
@@ -27,8 +28,9 @@
     </div>
 
     <div>
-      User Points: <span id='userPoint'></span>
-      Ai Points: <span id='aiPoint'></span>
+      User Points: <span id='userPoint'>0</span>
+      <br>
+      Ai Points: <span id='aiPoint'>0</span>
     </div>
 
   </body>

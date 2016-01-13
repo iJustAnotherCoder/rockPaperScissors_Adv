@@ -6,6 +6,10 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+.token:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
 .token { 
     width: 32%; 
     border: 1px solid blue; 
